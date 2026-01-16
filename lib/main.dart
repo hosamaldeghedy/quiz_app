@@ -1,8 +1,5 @@
-
 import 'package:flutter/material.dart';
-import 'package:quiz_app/gen/assets.gen.dart';
-import 'quiz_app.dart';
+import 'package:quiz_app/screens/home_screen.dart';
 void main() {
-  runApp( QuizApp());
-  Assets.images.galaxy.image();
+  runApp( MaterialApp(debugShowCheckedModeBanner: false,home: HomeScreen(),));
 }
